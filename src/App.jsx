@@ -10,7 +10,7 @@ import { LanguageProvider } from "./context/LanguageContext";
 export default function App() {
   return (
     <LanguageProvider>
-      <div className="bg-neutral-950 text-neutral-100 min-h-screen">
+      <div className="bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100 min-h-screen">
         <Header />
         <main className="max-w-6xl mx-auto px-6">
           <Hero />

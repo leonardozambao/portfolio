@@ -1,6 +1,13 @@
 import { useContext, useEffect, useState } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 
+function toggleTheme() {
+  document.documentElement.classList.toggle("dark");
+  localStorage.theme = document.documentElement.classList.contains("dark")
+    ? "dark"
+    : "light";
+}
+
 export default function Header() {
   const { lang, setLang } = useContext(LanguageContext);
   const [theme, setTheme] = useState("light");
@@ -66,7 +73,7 @@ export default function Header() {
                 lang === "pt" ? "font-medium" : "text-neutral-400"
               }`}
             >
-              PT
+              PT-BR
             </button>
           </div>
 

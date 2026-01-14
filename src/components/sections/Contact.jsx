@@ -15,7 +15,7 @@ export default function Contact() {
         <div className="space-y-3">
           <a
             href="mailto:leonardozambao1998@gmail.com"
-            className="block hover:text-white transition"
+            className="block hover:underline  transition"
           >
             📧 leonardozambao1998@gmail.com
           </a>
@@ -24,7 +24,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/leonardo-zamb%C3%A3o-31b051160/"
             target="_blank"
             rel="noreferrer"
-            className="block hover:text-white transition"
+            className="block hover:underline  transition"
           >
             🔗 LinkedIn
           </a>
@@ -33,7 +33,7 @@ export default function Contact() {
             href="https://github.com/leonardozambao"
             target="_blank"
             rel="noreferrer"
-            className="block hover:text-white transition"
+            className="block hover:underline transition"
           >
             💻 GitHub
           </a>

@@ -11,7 +11,7 @@ export default function Projects() {
         {projects.map((project) => (
           <div
             key={project.title}
-            className="border border-neutral-800 rounded-lg p-6 hover:border-neutral-600 transition"
+            className="bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg p-6 hover:border-neutral-600 transition"
           >
             <h3 className="font-medium mb-2">{project.title}</h3>
             <p className="text-sm text-neutral-400 mb-4">
