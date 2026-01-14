@@ -3,6 +3,7 @@ import Footer from "./components/layout/Footer";
 import Hero from "./components/sections/Hero";
 import Projects from "./components/sections/Projects";
 import Skills from "./components/sections/Skills";
+import Experience from "./components/sections/Experience";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Hero />
         <Projects />
         <Skills />
+        <Experience />
       </main>
       <Footer />
     </div>
