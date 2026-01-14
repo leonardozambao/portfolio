@@ -25,10 +25,22 @@ export default {
   },
   projects: {
     title: "Projects",
+    text: "And many more...",
     portfolio: {
       title: "Personal Portfolio",
       description:
         "Personal portfolio built with React and Tailwind to showcase front-end skills.",
+    },
+    plaenge: {
+      description:
+        "Developed CSS and JS for the Plaenge Empreendimentos website and other group sites, including Vanguard, Grupo Plaenge, Plaenge Industrial, Plaenge Chile, and Vanguard Chile.",
+    },
+    toyota: {
+      title: "Toyota Forklifts Brazil",
+    },
+    financial: {
+      description:
+        "Developed custom WordPress themes for Financial Negócios Imobiliários, Financial Empreendimentos, and Evive Urbanismo.",
     },
   },
   skills: {

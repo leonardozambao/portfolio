@@ -18,13 +18,17 @@ export default function Projects() {
             href={project.link}
             target="_blank"
             rel="noreferrer"
-            className="border border-neutral-200 dark:border-neutral-800 p-5 rounded-lg hover:border-neutral-400 transition"
+            className="border border-neutral-200 dark:border-neutral-800 p-5 rounded-lg hover:scale-103 transition"
           >
             <h3 className="font-medium mb-2">
-              {getTranslation(t, project.titleKey)}
+              {getTranslation(t, project.titleKey)
+                ? getTranslation(t, project.titleKey)
+                : project.titleKey}
             </h3>
             <p className="text-sm text-neutral-400 mb-3">
-              {getTranslation(t, project.descriptionKey)}
+              {getTranslation(t, project.descriptionKey)
+                ? getTranslation(t, project.descriptionKey)
+                : project.descriptionKey}
             </p>
             <p className="text-xs text-neutral-500">
               {project.tech.join(" • ")}
@@ -32,6 +36,7 @@ export default function Projects() {
           </a>
         ))}
       </div>
+      <p className="text-xs pt-6">{t.projects.text}</p>
     </Section>
   );
 }
