@@ -56,5 +56,4 @@ src/
  ├─ hooks/
  ├─ locales/
  ├─ utils/
- └─ styles/
 ```
