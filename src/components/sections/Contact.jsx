@@ -1,16 +1,17 @@
 import Section from "../ui/Section";
 import SectionTitle from "../ui/SectionTitle";
+import useTranslation from "../../hooks/useTranslation";
+import { getTranslation } from "../../utils/getTranslation";
 
 export default function Contact() {
+  const t = useTranslation();
+
   return (
     <Section id="contact">
-      <SectionTitle>Contact</SectionTitle>
+      <SectionTitle>{t.contact.title}</SectionTitle>
 
       <div className="max-w-xl space-y-6 text-neutral-400">
-        <p>
-          I'm currently open to remote opportunities and collaborations. Feel
-          free to reach out if you'd like to work together.
-        </p>
+        <p>{t.contact.text}</p>
 
         <div className="space-y-3">
           <a
