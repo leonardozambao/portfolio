@@ -8,6 +8,14 @@ export const projects = [
     link: "https://leonardozambao.github.io/portfolio/",
   },
   {
+    id: "secretWord",
+    type: "personal",
+    titleKey: "Secret Word",
+    descriptionKey: "projects.secretWord.description",
+    tech: ["React", "Vite", "Tailwind"],
+    link: "https://leonardozambao.github.io/secret-word/",
+  },
+  {
     id: "plaenge",
     type: "client",
     titleKey: "Plaenge Empreendimentos",
@@ -122,7 +130,7 @@ export const projects = [
   {
     id: "plenaventura",
     type: "client",
-    titleKey: "Plena Ventura",
+    titleKey: "Plenaventura Investimentos",
     descriptionKey: "",
     tech: ["CSS", "HTML", "JavaScript", "Wordpress"],
     link: "https://site.plenaventura.com.br/",

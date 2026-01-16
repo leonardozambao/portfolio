@@ -31,6 +31,10 @@ export default {
       description:
         "Personal portfolio built with React and Tailwind to showcase front-end skills.",
     },
+    secretWord: {
+      title: "Secret Word",
+      description: "A personal game used to study React and Tailwind.",
+    },
     plaenge: {
       description:
         "Developed CSS and JS for the Plaenge Empreendimentos website and other group sites, including Vanguard, Grupo Plaenge, Plaenge Industrial, Plaenge Chile, and Vanguard Chile.",
